@@ -1,8 +1,7 @@
 name: gat_env_info
 description: GetArch infrastructure package, get app environment information
-version: 0.0.1
-author:
-homepage:
+version: 0.4.1
+repository: https://github.com/Hu-Wentao/get_env_info
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

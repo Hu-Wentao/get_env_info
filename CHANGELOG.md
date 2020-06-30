@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## [0.4.1] - 2020/6/30
 
-* TODO: Describe initial release.
+* 适配get_arch_core v0.4.0 调试完毕
+* 对外提供App包信息, 设备信息

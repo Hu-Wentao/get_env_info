@@ -31,7 +31,6 @@ class EnvInfoPackage extends IGetArchPackage {
   }
 
   @override
-  // TODO: implement printBoolStateWithRegTypeName
   Map<String, bool> get printBoolStateWithRegTypeName => {
         'IEnvInfoSource': openEnvInfoSourceImpl,
       };

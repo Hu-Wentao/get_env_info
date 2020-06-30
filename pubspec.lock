@@ -210,10 +210,10 @@ packages:
   get_arch_core:
     dependency: "direct main"
     description:
-      path: "D:/flutter_arch/get_arch_core"
-      relative: false
-    source: path
-    version: "0.3.0"
+      name: get_arch_core
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.4.0"
   get_it:
     dependency: transitive
     description:
