@@ -1,6 +1,6 @@
 name: gat_env_info
 description: GetArch infrastructure package, get app environment information
-version: 0.4.1
+version: 0.5.0
 repository: https://github.com/Hu-Wentao/get_env_info
 
 environment:
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  get_arch_core: ^0.4.0
+  get_arch_core: ^0.5.1
   json_serializable: ^3.3.0
   freezed_annotation: ^0.11.0
   package_info: ^0.4.1

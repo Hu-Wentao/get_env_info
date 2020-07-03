@@ -213,7 +213,7 @@ packages:
       name: get_arch_core
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.4.0"
+    version: "0.5.1"
   get_it:
     dependency: transitive
     description:
