@@ -11,7 +11,6 @@ import 'package:gat_env_info/domain/model.dart';
 import 'package:gat_env_info/interface/i_env_info_source.dart';
 import 'package:get_arch_core/domain/env_config.dart';
 import 'package:get_arch_core/get_arch_core.dart';
-import 'package:get_arch_core/get_arch_part.dart';
 import 'package:package_info/package_info.dart';
 
 @prod
@@ -66,7 +65,7 @@ class EnvInfoSource extends IEnvInfoSource {
   }
 }
 
-@test
+@Environment.test
 @LazySingleton(as: IEnvInfoSource)
 class TestEnvInfoSource extends EnvInfoSource {
   TestEnvInfoSource(EnvConfig config) : super(config);

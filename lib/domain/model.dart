@@ -2,7 +2,7 @@
 // Date  : 2020/2/27
 // Time  : 20:46
 import 'package:get_arch_core/domain/env_config.dart';
-import 'package:get_arch_core/get_arch_part.dart';
+import 'package:get_arch_core/get_arch_core.dart';
 
 ///
 /// App环境信息
