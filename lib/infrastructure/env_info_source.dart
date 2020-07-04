@@ -10,7 +10,7 @@ import 'package:flutter/foundation.dart';
 import 'package:gat_env_info/domain/model.dart';
 import 'package:gat_env_info/interface/i_env_info_source.dart';
 import 'package:get_arch_core/domain/env_config.dart';
-import 'package:get_arch_core/get_arch_core.dart';
+import 'package:injectable/injectable.dart';
 import 'package:package_info/package_info.dart';
 
 @prod

@@ -7,6 +7,7 @@ import 'package:flutter/foundation.dart';
 import 'package:get_arch_core/domain/env_config.dart';
 import 'package:get_arch_core/get_arch_core.dart';
 import 'package:get_arch_core/profile/i_get_arch_package.dart';
+import 'package:injectable/injectable.dart';
 import 'env_info_package.iconfig.dart';
 
 ///

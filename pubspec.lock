@@ -213,7 +213,7 @@ packages:
       name: get_arch_core
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.1"
   get_it:
     dependency: transitive
     description:
@@ -264,7 +264,7 @@ packages:
     source: hosted
     version: "2.1.12"
   injectable:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: injectable
       url: "https://pub.flutter-io.cn"
