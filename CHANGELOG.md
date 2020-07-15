@@ -1,3 +1,7 @@
+## [0.6.2] - 2020/7/16
+* 适配 get_arch_core '>=0.6.1 <2.0.0'
+* 修正错误的包名 gat_env_info => get_env_info
+
 ## [0.6.1] - 2020/7/4
 * 适配 get_arch_core v0.6.1
 

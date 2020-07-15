@@ -3,7 +3,7 @@
 // Date  : 2020/6/26
 // Time  : 20:04
 
-import 'package:gat_env_info/domain/model.dart';
+import 'package:get_env_info/domain/model.dart';
 
 abstract class IEnvInfoSource {
   Future<EnvInfo> getEnvInfo();

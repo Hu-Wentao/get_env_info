@@ -51,16 +51,16 @@ class EnvInfo extends Equatable {
 
   @override
   List<Object> get props => [
-    pkgName,
-    envSign,
-    appVersion,
-    buildNumber,
-    platformName,
-    deviceUuid,
-    platformVersion,
-    platformVersionName,
-    model,
-    isPhysicalDevice
-  ];
+        pkgName,
+        envSign,
+        appVersion,
+        buildNumber,
+        platformName,
+        deviceUuid,
+        platformVersion,
+        platformVersionName,
+        model,
+        isPhysicalDevice
+      ];
   final stringify = true;
 }

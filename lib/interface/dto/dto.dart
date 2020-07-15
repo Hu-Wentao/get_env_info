@@ -4,8 +4,8 @@
 // Time  : 14:41
 
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:gat_env_info/domain/model.dart';
 import 'package:get_arch_core/get_arch_core.dart';
+import 'package:get_env_info/domain/model.dart';
 
 part 'dto.freezed.dart';
 part 'dto.g.dart';
@@ -46,16 +46,16 @@ abstract class EnvInfoDto extends IDto with _$EnvInfoDto {
 
 extension EnvInfoDtoX on EnvInfoDto {
   EnvInfo toDomain() => EnvInfo(
-      libVersion: libVersion,
-      pkgName: pkgName,
-      envSign: envSign,
-      appVersion: appVersion,
-      buildNumber: buildNumber,
-      platformName: platformName,
-      deviceUuid: deviceUuid,
-      platformVersion: platformVersion,
-      platformVersionName: platformVersionName,
-      model: model,
-      isPhysicalDevice: isPhysicalDevice,
-    );
+        libVersion: libVersion,
+        pkgName: pkgName,
+        envSign: envSign,
+        appVersion: appVersion,
+        buildNumber: buildNumber,
+        platformName: platformName,
+        deviceUuid: deviceUuid,
+        platformVersion: platformVersion,
+        platformVersionName: platformVersionName,
+        model: model,
+        isPhysicalDevice: isPhysicalDevice,
+      );
 }
